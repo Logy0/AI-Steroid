@@ -9,6 +9,7 @@
 #include "Defines.hpp"
 #include "Asteroid.hpp"
 #include "TextureManager.hpp"
+#include "Trajectory.hpp"
 
 class AsteroidManager : public sf::Drawable
 {

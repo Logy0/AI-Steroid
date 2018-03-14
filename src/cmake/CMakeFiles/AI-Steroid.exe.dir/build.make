@@ -177,9 +177,33 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/T
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.o.provides.build: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.o
 
 
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o: CMakeFiles/AI-Steroid.exe.dir/flags.make
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o -c /home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp
+
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.i"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp > CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.i
+
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.s"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp -o CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.s
+
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o.requires:
+
+.PHONY : CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o.requires
+
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o.provides: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o.requires
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o.provides.build
+.PHONY : CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o.provides
+
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o.provides.build: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o
+
+
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: CMakeFiles/AI-Steroid.exe.dir/flags.make
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o"
 	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o -c /home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp
 
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.i: cmake_force
@@ -208,6 +232,7 @@ AI__Steroid_exe_OBJECTS = \
 "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o" \
 "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/IAGridVisual.cpp.o" \
 "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.o" \
+"CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o" \
 "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o"
 
 # External object files for target AI-Steroid.exe
@@ -218,6 +243,7 @@ AI__Steroid_exe_EXTERNAL_OBJECTS =
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/IAGridVisual.cpp.o
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.o
+/home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/build.make
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: /usr/lib/x86_64-linux-gnu/libsfml-network.so
@@ -226,7 +252,7 @@ AI__Steroid_exe_EXTERNAL_OBJECTS =
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: /usr/lib/x86_64-linux-gnu/libsfml-window.so
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable /home/asphox/Documents/c++/AI-Steroid/bin/Release/AI-Steroid.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AI-Steroid.exe.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -241,6 +267,7 @@ AI__Steroid_exe_OBJECTS = \
 "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o" \
 "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/IAGridVisual.cpp.o" \
 "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.o" \
+"CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o" \
 "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o"
 
 # External object files for target AI-Steroid.exe
@@ -251,6 +278,7 @@ CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/as
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/IAGridVisual.cpp.o
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.o
+CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/build.make
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: /usr/lib/x86_64-linux-gnu/libsfml-network.so
@@ -259,7 +287,7 @@ CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: /usr/lib/x86_64-linux-gnu/libsfml-gra
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: /usr/lib/x86_64-linux-gnu/libsfml-window.so
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: /usr/lib/x86_64-linux-gnu/libsfml-system.so
 CMakeFiles/CMakeRelink.dir/AI-Steroid.exe: CMakeFiles/AI-Steroid.exe.dir/relink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable CMakeFiles/CMakeRelink.dir/AI-Steroid.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable CMakeFiles/CMakeRelink.dir/AI-Steroid.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/AI-Steroid.exe.dir/relink.txt --verbose=$(VERBOSE)
 
 # Rule to relink during preinstall.
@@ -272,6 +300,7 @@ CMakeFiles/AI-Steroid.exe.dir/requires: CMakeFiles/AI-Steroid.exe.dir/home/aspho
 CMakeFiles/AI-Steroid.exe.dir/requires: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o.requires
 CMakeFiles/AI-Steroid.exe.dir/requires: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/IAGridVisual.cpp.o.requires
 CMakeFiles/AI-Steroid.exe.dir/requires: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.o.requires
+CMakeFiles/AI-Steroid.exe.dir/requires: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o.requires
 CMakeFiles/AI-Steroid.exe.dir/requires: CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o.requires
 
 .PHONY : CMakeFiles/AI-Steroid.exe.dir/requires

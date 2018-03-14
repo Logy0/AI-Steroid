@@ -29,7 +29,7 @@ Asteroid* AsteroidManager::generate(const sf::Vector2f& pos)
         radius = dist_variations_radius(rand);
         vertices[i] = sf::Vector2f(radius*cos(i*angle_increment),radius*sin(i*angle_increment));
     }
-    Asteroid* ast = new Asteroid(texturesMgr.get("asteroid"),base_radius,vertices,pos,{8,0},{1,3},0,10,0);
+    Asteroid* ast = new Asteroid(texturesMgr.get("asteroid"),base_radius,vertices,pos,{0,5},{0,0},0,10,0);
     list.insert(ast);
     return ast;
 }
