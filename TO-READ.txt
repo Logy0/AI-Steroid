@@ -1,0 +1,2 @@
+Les sockets utilisés pour faire de l'IPC sont des sockets windows (donc la communication entre les programmes python et C++ n'est pour l'instant pas possible sous Linux).
+Ceci sera rectifié très rapidement.
