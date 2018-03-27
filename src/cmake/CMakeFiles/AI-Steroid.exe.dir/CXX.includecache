@@ -52,6 +52,18 @@ TextureManager.hpp
 Bullet.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Bullet.hpp
 
+/home/asphox/Documents/c++/AI-Steroid/src/headers/CollisionsManager.hpp
+AsteroidManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
+BulletManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
+Vessel.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp
+Math.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/Math.hpp
+iostream
+-
+
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
 cstdint
 -
@@ -77,6 +89,12 @@ Defines.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
 HasPhysics.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+
+/home/asphox/Documents/c++/AI-Steroid/src/headers/Math.hpp
+cmath
+-
+SFML/Graphics.hpp
+-
 
 /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
 SFML/Graphics.hpp
@@ -122,6 +140,10 @@ TextureManager.hpp
 ../headers/BulletManager.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
 
+/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp
+../headers/CollisionsManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/CollisionsManager.hpp
+
 /home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp
 ../headers/HasPhysics.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
@@ -163,4 +185,6 @@ iostream
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp
 ../headers/BulletManager.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
+../headers/CollisionsManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/CollisionsManager.hpp
 

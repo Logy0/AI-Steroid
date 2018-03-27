@@ -25,7 +25,7 @@ void BulletManager::update(float timeElapsed)
 {
     for( auto it = list.begin() ; it != list.end() ; )
     {
-        if((*it)->wantedKill())
+        if((*it)->wantKill())
         {
             delete *it;
             it = list.erase(it);

@@ -29,3 +29,9 @@ void Asteroid::update(float timeElapsed)
 {
     updatePhysics(timeElapsed);
 }
+
+void Asteroid::applyDamages(uint16_t damages)
+{
+    if(damages >= lifePoints)bWantKill=true;
+    else lifePoints-=damages;
+}

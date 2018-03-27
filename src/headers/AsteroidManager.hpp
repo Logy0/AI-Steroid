@@ -26,7 +26,11 @@ class AsteroidManager : public sf::Drawable
         virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
         void update(float timeElapsed);
         void clear();
-        inline const std::set<Asteroid*>& getAsteroids() const{ return list; }
+        auto erase(Asteroid* asteroid) -> decltype(list.erase(asteroid)) {
+             delete asteroid;
+             return list.erase(asteroid);
+         }
+        inline std::set<Asteroid*>& getAsteroids(){ return list; }
 
 
 };

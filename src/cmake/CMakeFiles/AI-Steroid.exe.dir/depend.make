@@ -29,6 +29,19 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/B
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp
 
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Asteroid.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Bullet.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/CollisionsManager.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Math.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp
+
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
@@ -56,9 +69,11 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/m
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Bullet.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/CollisionsManager.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/IAGridVisual.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Math.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o: /home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp

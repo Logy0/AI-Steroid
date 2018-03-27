@@ -269,6 +269,33 @@ home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.s:
 	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.s
 .PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.s
 
+home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.o: home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.o
+
+# target to build an object file
+home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o
+
+home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.i: home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.i
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.i
+
+# target to preprocess a source file
+home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.i:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.i
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.i
+
+home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.s: home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.s
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.s
+
+# target to generate assembly for a file
+home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.s:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.s
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.s
+
 home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.o: home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o
 
 .PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.o
@@ -428,6 +455,9 @@ help:
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.o"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.i"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.s"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.o"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.i"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.s"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.o"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.i"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.s"

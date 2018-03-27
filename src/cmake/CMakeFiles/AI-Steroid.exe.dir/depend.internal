@@ -29,6 +29,19 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/B
  /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp.o
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/Asteroid.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/Bullet.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/CollisionsManager.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/Math.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/sources/CollisionsManager.cpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o
  /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
@@ -57,9 +70,11 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/m
  /home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/Bullet.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/CollisionsManager.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/IAGridVisual.hpp
+ /home/asphox/Documents/c++/AI-Steroid/src/headers/Math.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
  /home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp

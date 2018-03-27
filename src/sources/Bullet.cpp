@@ -5,6 +5,7 @@ Bullet::Bullet( const sf::Texture& texture, const sf::Vector2f& pos, const sf::V
 {
     shape.setTexture(&texture);
     shape.setSize({5,10});
+    shape.setOrigin({2.5,5});
 }
 void Bullet::draw(sf::RenderTarget& target,sf::RenderStates state) const
 {

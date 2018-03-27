@@ -47,8 +47,19 @@ void AsteroidManager::clear()
     list.clear();
 }
 
-void AsteroidManager::update(float timeElasped)
+void AsteroidManager::update(float timeElapsed)
 {
-    for( auto& it : list )
-        it->update(timeElasped);
+    for( auto it = list.begin() ; it != list.end() ; )
+    {
+        if( (*it)->wantKill() )
+        {
+            delete *it;
+            it = list.erase(it);
+        }
+        else
+        {
+            (*it)->update(timeElapsed);
+            ++it;
+        }
+    }
 }

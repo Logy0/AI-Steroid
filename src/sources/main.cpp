@@ -9,6 +9,7 @@
 #include "../headers/IAGridVisual.hpp"
 #include "../headers/Vessel.hpp"
 #include "../headers/BulletManager.hpp"
+#include "../headers/CollisionsManager.hpp"
 
 
 int main()
@@ -24,10 +25,12 @@ int main()
     textureMgr.add("asteroid",PATH_TEXTURES+"asteroids.png");
     textureMgr.add("bullet",PATH_TEXTURES+"bullet.png");
     textureMgr.add("vessel",PATH_TEXTURES+"vessel.png");
-    
+
     AsteroidManager asteroidManager(textureMgr);
     BulletManager bulletManager(textureMgr);
     Vessel vessel(textureMgr,bulletManager,{200,200});
+    CollisionsManager collisionsManager(vessel,asteroidManager,bulletManager);
+
     uint8_t tdir = THRUST_DIRECTION::NONE ;
 
     bool display_grid = false;
@@ -76,6 +79,7 @@ int main()
         window.draw(asteroidManager);
         window.draw(vessel);
         window.draw(bulletManager);
+        collisionsManager.check();
         if(ENABLE_GRID_TEST_MOD)
         {
             grid.reset();
