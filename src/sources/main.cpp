@@ -8,6 +8,7 @@
 #include "../headers/TextureManager.hpp"
 #include "../headers/IAGridVisual.hpp"
 #include "../headers/Vessel.hpp"
+#include "../headers/BulletManager.hpp"
 
 
 int main()
@@ -21,13 +22,17 @@ int main()
     IAGridVisual grid;
     TextureManager textureMgr;
     textureMgr.add("asteroid",PATH_TEXTURES+"asteroids.png");
-    AsteroidManager manager(textureMgr);
-    Vessel vessel({200,200});
+    textureMgr.add("bullet",PATH_TEXTURES+"bullet.png");
+    textureMgr.add("vessel",PATH_TEXTURES+"vessel.png");
+    
+    AsteroidManager asteroidManager(textureMgr);
+    BulletManager bulletManager(textureMgr);
+    Vessel vessel(textureMgr,bulletManager,{200,200});
     uint8_t tdir = THRUST_DIRECTION::NONE ;
 
     bool display_grid = false;
 
-    manager.generate({70,60});
+    asteroidManager.generate({70,60});
     while(window.isOpen())
     {
         sf::Event event;
@@ -58,20 +63,24 @@ int main()
                     tdir|=THRUST_DIRECTION::LEFT;
                 if(event.key.code == sf::Keyboard::D)
                     tdir|=THRUST_DIRECTION::RIGHT;
+                if(event.key.code == sf::Keyboard::Space)
+                    vessel.fire();
             }
         }
-        manager.update(sec);
+        asteroidManager.update(sec);
+        bulletManager.update(sec);
         vessel.thrust(static_cast<THRUST_DIRECTION>(tdir));
         vessel.update(sec);
         clock.restart();
         window.clear();
-        window.draw(manager);
+        window.draw(asteroidManager);
         window.draw(vessel);
+        window.draw(bulletManager);
         if(ENABLE_GRID_TEST_MOD)
         {
             grid.reset();
             grid.update(&vessel);
-            for( const auto& it : manager.getAsteroids())
+            for( const auto& it : asteroidManager.getAsteroids())
             {
                 grid.update(it);
             }

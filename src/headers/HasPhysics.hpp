@@ -24,6 +24,10 @@ class HasPhysics
     float       m_acc_rot;
     float       m_fric_rot = 0;
 
+    float lifeTime = 0;
+    float maxLifeTime = 0;
+    bool  bWantedKill = false;
+
     public:
     HasPhysics( uint8_t id , const sf::Vector2f& pos , const sf::Vector2f& vel , const sf::Vector2f& acc,
                 float rot , float vel_rot , float acc_rot );
@@ -43,6 +47,8 @@ class HasPhysics
     //inline const sf::Vector2f& getVelocity() const { return vel; }
     //inline const sf::Vector2f& getAcceleration() const { return acc; }
     virtual void updatePhysics( float timeElapsed );
+    inline void setMaxLifeTime(float maxLifeTime){ this->maxLifeTime = maxLifeTime; }
+    inline bool wantedKill(){ return bWantedKill; }
 };
 
 #endif //HAS_PHYSICS_HPP

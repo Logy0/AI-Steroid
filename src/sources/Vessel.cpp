@@ -1,7 +1,11 @@
 #include "../headers/Vessel.hpp"
 
-Vessel::Vessel( const sf::Vector2f& pos ) : HasPhysics(2,pos,{0,0},{0,0},0,0,0)
+Vessel::Vessel( TextureManager& textureManager, BulletManager& bulletManager , const sf::Vector2f& pos )
+    :HasPhysics(2,pos,{0,0},{0,0},0,0,0)
+    ,bulletManager(bulletManager)
+    ,textureManager(textureManager)
 {
+    shape.setTexture(&textureManager.get("vessel"));
     shape.setSize(sf::Vector2f(10,20));
     shape.setOrigin(sf::Vector2f(5,10));
     shape.setPosition(pos);
@@ -53,5 +57,5 @@ void Vessel::thrust(THRUST_DIRECTION tdir)
 
 void Vessel::fire()
 {
-    //TODO
+    bulletManager.generate(m_pos);
 }

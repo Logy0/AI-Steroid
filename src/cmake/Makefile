@@ -215,6 +215,60 @@ home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.cpp.s:
 	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.cpp.s
 .PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.cpp.s
 
+home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.o: home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.o
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.o
+
+# target to build an object file
+home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.o:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.o
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.o
+
+home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.i: home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.i
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.i
+
+# target to preprocess a source file
+home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.i:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.i
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.i
+
+home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.s: home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.s
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.s
+
+# target to generate assembly for a file
+home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.s:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.s
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp.s
+
+home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.o: home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.o
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.o
+
+# target to build an object file
+home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.o:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.o
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.o
+
+home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.i: home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.i
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.i
+
+# target to preprocess a source file
+home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.i:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.i
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.i
+
+home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.s: home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.s
+
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.s
+
+# target to generate assembly for a file
+home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.s:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.s
+.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp.s
+
 home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.o: home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o
 
 .PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.o
@@ -368,6 +422,12 @@ help:
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.o"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.i"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.s"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.o"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.i"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.s"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.o"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.i"
+	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.s"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.o"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.i"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.s"

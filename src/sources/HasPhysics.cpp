@@ -15,6 +15,10 @@ HasPhysics::HasPhysics( uint8_t id , const sf::Vector2f& pos , const sf::Vector2
 
 void HasPhysics::updatePhysics(float timeElapsed)
 {
+        lifeTime+=timeElapsed;
+        if( maxLifeTime != 0 && lifeTime > maxLifeTime )
+            bWantedKill = true;
+            
         if(m_frictions_enabled[0])
             m_vel.x+=(m_acc.x-m_fric*m_vel.x)*timeElapsed;
         if(m_frictions_enabled[1])

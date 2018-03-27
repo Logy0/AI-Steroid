@@ -36,6 +36,22 @@ TextureManager.hpp
 Trajectory.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
 
+/home/asphox/Documents/c++/AI-Steroid/src/headers/Bullet.hpp
+SFML/Graphics.hpp
+-
+HasPhysics.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+
+/home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
+SFML/Graphics.hpp
+-
+set
+-
+TextureManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
+Bullet.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/Bullet.hpp
+
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
 cstdint
 -
@@ -85,6 +101,10 @@ Defines.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
 HasPhysics.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+BulletManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
+TextureManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
 
 /home/asphox/Documents/c++/AI-Steroid/src/sources/Asteroid.cpp
 ../headers/Asteroid.hpp
@@ -93,6 +113,14 @@ HasPhysics.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.cpp
 ../headers/AsteroidManager.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
+
+/home/asphox/Documents/c++/AI-Steroid/src/sources/Bullet.cpp
+../headers/Bullet.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/Bullet.hpp
+
+/home/asphox/Documents/c++/AI-Steroid/src/sources/BulletManager.cpp
+../headers/BulletManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
 
 /home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp
 ../headers/HasPhysics.hpp
@@ -133,4 +161,6 @@ iostream
 /home/asphox/Documents/c++/AI-Steroid/src/headers/IAGridVisual.hpp
 ../headers/Vessel.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp
+../headers/BulletManager.hpp
+/home/asphox/Documents/c++/AI-Steroid/src/headers/BulletManager.hpp
 
