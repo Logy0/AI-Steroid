@@ -9,7 +9,6 @@
 #include "Defines.hpp"
 #include "Asteroid.hpp"
 #include "TextureManager.hpp"
-#include "Trajectory.hpp"
 
 class AsteroidManager : public sf::Drawable
 {
@@ -22,7 +21,7 @@ class AsteroidManager : public sf::Drawable
     public:
         AsteroidManager(const TextureManager&);
         ~AsteroidManager();
-        Asteroid* generate( const sf::Vector2f& position );
+        Asteroid* generate( const sf::Vector2f& position, const sf::Vector2f& velociraptor);
         virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
         void update(float timeElapsed);
         void clear();

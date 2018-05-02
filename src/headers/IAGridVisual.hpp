@@ -11,9 +11,8 @@ class IAGridVisual : public sf::Drawable
 private:
     sf::RectangleShape grid[GRID_Y][GRID_X];
 public:
-    uint8_t grid_value[GRID_Y][GRID_X];
-    
     IAGridVisual();
+	char grid_value[GRID_Y][GRID_X];
     virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
     void reset();
     void updateVisual();

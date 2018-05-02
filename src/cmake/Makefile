@@ -296,33 +296,6 @@ home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.s:
 	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.s
 .PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.s
 
-home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.o: home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o
-
-.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.o
-
-# target to build an object file
-home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o:
-	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o
-.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.o
-
-home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.i: home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.i
-
-.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.i
-
-# target to preprocess a source file
-home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.i:
-	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.i
-.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.i
-
-home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.s: home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.s
-
-.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.s
-
-# target to generate assembly for a file
-home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.s:
-	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.s
-.PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp.s
-
 home/asphox/Documents/c++/AI-Steroid/src/sources/main.o: home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o
 
 .PHONY : home/asphox/Documents/c++/AI-Steroid/src/sources/main.o
@@ -377,9 +350,6 @@ help:
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.o"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.i"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.s"
-	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.o"
-	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.i"
-	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.s"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/main.o"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/main.i"
 	@echo "... home/asphox/Documents/c++/AI-Steroid/src/sources/main.s"

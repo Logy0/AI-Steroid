@@ -27,9 +27,9 @@ void IAGridVisual::updateVisual()
             case 1:
                 grid[i][j].setFillColor(sf::Color(255,0,0,80));
                 break;
-            case 2:
-                grid[i][j].setFillColor(sf::Color(0,255,0,80));
-                break;
+			case 2:
+				grid[i][j].setFillColor(sf::Color(10, 255, 0, 80));
+				break;
             default:
                 grid[i][j].setFillColor(sf::Color::Transparent);
                 break;
@@ -52,11 +52,12 @@ void IAGridVisual::reset()
 
 void IAGridVisual::update( const HasPhysics* object )
 {
-    int16_t pos_in_grid_x =  object->getPosition().x/WINDOW_X*GRID_X;
-    int16_t pos_in_grid_y =  object->getPosition().y/WINDOW_Y*GRID_Y;
+    int8_t pos_in_grid_x =  object->getPosition().x/WINDOW_X*GRID_X;
+    int8_t pos_in_grid_y =  object->getPosition().y/WINDOW_Y*GRID_Y;
     if( pos_in_grid_x < GRID_X && pos_in_grid_y < GRID_Y && pos_in_grid_x >= 0 && pos_in_grid_y >= 0)
         grid_value[pos_in_grid_y][pos_in_grid_x] = object->getTypeId();
 }
+
 void IAGridVisual::draw(sf::RenderTarget& target, sf::RenderStates states) const
 {
     for( uint16_t i=0 ; i < GRID_Y ; i++ )

@@ -33,8 +33,6 @@ Asteroid.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Asteroid.hpp
 TextureManager.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
-Trajectory.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
 
 /home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
 cstdint
@@ -45,12 +43,6 @@ iostream
 /home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
 SFML/Graphics.hpp
 -
-bitset
--
-cstdlib
--
-Trajectory.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
 
 /home/asphox/Documents/c++/AI-Steroid/src/headers/IAGridVisual.hpp
 set
@@ -67,24 +59,6 @@ SFML/Graphics.hpp
 -
 map
 -
-
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Trajectory.hpp
-functional
--
-SFML/Graphics.hpp
--
-cmath
--
-Defines.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
-
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp
-SFML/Graphics.hpp
--
-Defines.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
-HasPhysics.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
 
 /home/asphox/Documents/c++/AI-Steroid/src/sources/Asteroid.cpp
 ../headers/Asteroid.hpp
@@ -108,10 +82,6 @@ iostream
 ../headers/TextureManager.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/sources/Vessel.cpp
-../headers/Vessel.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp
-
 /home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp
 SFML/Graphics.hpp
 -
@@ -131,6 +101,4 @@ iostream
 /home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
 ../headers/IAGridVisual.hpp
 /home/asphox/Documents/c++/AI-Steroid/src/headers/IAGridVisual.hpp
-../headers/Vessel.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Vessel.hpp
 
