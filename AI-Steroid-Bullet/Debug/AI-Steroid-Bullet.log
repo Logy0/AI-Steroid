@@ -1,0 +1,21 @@
+﻿  Vessel.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\vessel.hpp(4): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  TextureManager.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\texturemanager.hpp(4): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  main.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\sources\main.cpp(1): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  IAGridVisual.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\iagridvisual.hpp(5): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  HasPhysics.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\hasphysics.hpp(4): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  CollisionsManager.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\asteroidmanager.hpp(8): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  BulletManager.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\bulletmanager.hpp(4): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  Bullet.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\bullet.hpp(4): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  AsteroidManager.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\asteroidmanager.hpp(8): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  Asteroid.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\headers\asteroid.hpp(5): fatal error C1083: Impossible d'ouvrir le fichier include : 'SFML/Graphics.hpp' : No such file or directory
+  Génération de code en cours...

@@ -1,0 +1,5 @@
+﻿  experimentsaisteroid.cpp
+c:\users\antoine0\source\repos\neat-master\neat\species.h(59): warning C4244: 'return' : conversion de 'unsigned __int64' en 'double', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neatconsoleapplication\aisteroidgame.h(37): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+c:\users\antoine0\source\repos\neat-master\neatconsoleapplication\experimentsaisteroid.cpp(141): warning C4101: 'pause' : variable locale non référencée
+  NEATConsoleApplication.vcxproj -> C:\Users\Antoine0\source\repos\NEAT-master\x64\Debug\NEATConsoleApplication.exe

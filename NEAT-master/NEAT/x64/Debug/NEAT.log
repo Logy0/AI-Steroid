@@ -1,0 +1,26 @@
+﻿  Genome.cpp
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(857): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(888): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1009): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1030): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1033): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1065): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1068): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1304): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1417): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1568): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1601): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1606): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1607): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1670): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1671): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1769): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1881): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1905): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1961): warning C4101: 'p1innov' : variable locale non référencée
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(2679): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(2687): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(2945): warning C4244: '=' : conversion de 'unsigned __int64' en 'double', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(2946): warning C4244: '=' : conversion de 'unsigned __int64' en 'double', perte possible de données
+c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(3049): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+  NEAT.vcxproj -> C:\Users\Antoine0\source\repos\NEAT-master\x64\Debug\NEAT.lib

@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(387,5): warning MSB8028: Le répertoire intermédiaire (x64\Debug\) contient des fichiers partagés provenant d'un autre projet (AI-Steroid.vcxproj). Cela peut entraîner un comportement de nettoyage et de régénération incorrect.
+  main.cpp
+  HasPhysics.cpp
+  AsteroidManager.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\sources\asteroidmanager.cpp(6): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\sources\asteroidmanager.cpp(25): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  Génération de code en cours...
+  AI-Steroid-Bullet.vcxproj -> C:\Users\Antoine0\source\repos\AI-Steroid-Bullet\x64\Debug\AI-Steroid-Bullet.exe
