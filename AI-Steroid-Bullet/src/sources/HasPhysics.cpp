@@ -16,12 +16,18 @@ HasPhysics::HasPhysics( uint8_t id , const sf::Vector2f& pos , const sf::Vector2
 void HasPhysics::updatePhysics(float timeElapsed)
 {
         lifeTime+=timeElapsed;
+        trajectory.update(timeElapsed);
         if( maxLifeTime != 0 && lifeTime > maxLifeTime )
             bWantKill = true;
 
-        if(m_frictions_enabled[0])
+        if( trajectory.isActiveAx() )
+            m_acc.x = trajectory.getAx();
+        if( trajectory.isActiveAy() )
+            m_acc.y = trajectory.getAy();
+
+        if(m_frictions_enabled[0] && !trajectory.isActiveAx())
             m_vel.x+=(m_acc.x-m_fric*m_vel.x)*timeElapsed;
-        if(m_frictions_enabled[1])
+        if(m_frictions_enabled[1] && !trajectory.isActiveAy())
             m_vel.y+=(m_acc.y-m_fric*m_vel.y)*timeElapsed;
         if(!m_frictions_enabled[0] && !m_frictions_enabled[1])
             m_vel+=m_acc*timeElapsed;

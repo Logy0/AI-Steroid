@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="AI-Steroid"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake_modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AI-Steroid.exe">
+				<Option output="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/bin/Debug/AI-Steroid.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../../bin/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 AI-Steroid.exe"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="AI-Steroid.exe/fast">
+				<Option output="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/bin/Debug/AI-Steroid.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="../../bin/Debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 AI-Steroid.exe/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Asteroid.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/AsteroidManager.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Bullet.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/BulletManager.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/HasPhysics.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Trajectory.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/cmake_modules/FindSFML.cmake">
+			<Option virtualFolder="CMake Files\cmake_modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

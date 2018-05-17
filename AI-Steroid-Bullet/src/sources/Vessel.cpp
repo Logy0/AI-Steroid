@@ -61,7 +61,17 @@ void Vessel::reset(sf::Vector2f respos)
 {
 	m_pos = respos;
 }
+
+void Vessel::releaseFire()
+{
+    fireLocked = false;
+}
+
 void Vessel::fire()
 {
-    bulletManager.generate(m_pos);
+    if(!fireLocked)
+    {
+        bulletManager.generate(m_pos);
+        fireLocked = true;
+    }
 }

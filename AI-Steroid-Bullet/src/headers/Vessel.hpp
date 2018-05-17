@@ -13,6 +13,7 @@ class Vessel : public sf::Drawable , public HasPhysics
         BulletManager& bulletManager;
         TextureManager& textureManager;
 		mutable sf::RectangleShape shape;
+		bool fireLocked = false;
     public:
 		void reset(sf::Vector2f respos);
 		void settexture(TextureManager& manager);
@@ -22,6 +23,7 @@ class Vessel : public sf::Drawable , public HasPhysics
 		bool killed = false;
         void thrust(THRUST_DIRECTION tdir);
         void fire();
+        void releaseFire();
 };
 
 #endif //VESSEL_HPP

@@ -1,4 +1,4 @@
-#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
 
 #IncludeRegexScan: ^.*$
 
@@ -6,17 +6,19 @@
 
 #IncludeRegexTransform: 
 
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Asteroid.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Asteroid.hpp
 array
 -
 SFML/Graphics.hpp
 -
 Defines.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
 HasPhysics.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
+Trajectory.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/AsteroidManager.hpp
 set
 -
 vector
@@ -28,61 +30,147 @@ cmath
 SFML/Graphics.hpp
 -
 Defines.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
 Asteroid.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Asteroid.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Asteroid.hpp
 TextureManager.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
+Trajectory.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Bullet.hpp
+SFML/Graphics.hpp
+-
+HasPhysics.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/BulletManager.hpp
+SFML/Graphics.hpp
+-
+set
+-
+TextureManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
+Bullet.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Bullet.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/CollisionsManager.hpp
+AsteroidManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/AsteroidManager.hpp
+BulletManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/BulletManager.hpp
+Vessel.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Vessel.hpp
+Math.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Math.hpp
+iostream
+-
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
 cstdint
 -
 iostream
 -
 
-/home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
 SFML/Graphics.hpp
 -
+bitset
+-
+cstdlib
+-
+Trajectory.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/headers/IAGridVisual.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/IAGridVisual.hpp
 set
 -
 SFML/Graphics.hpp
 -
 Defines.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
 HasPhysics.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Math.hpp
+cmath
+-
+SFML/Graphics.hpp
+-
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
 SFML/Graphics.hpp
 -
 map
 -
 
-/home/asphox/Documents/c++/AI-Steroid/src/sources/Asteroid.cpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
+functional
+-
+SFML/Graphics.hpp
+-
+cmath
+-
+functional
+-
+Defines.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Vessel.hpp
+SFML/Graphics.hpp
+-
+Defines.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
+HasPhysics.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
+BulletManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/BulletManager.hpp
+TextureManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Asteroid.cpp
 ../headers/Asteroid.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Asteroid.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Asteroid.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.cpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/AsteroidManager.cpp
 ../headers/AsteroidManager.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/AsteroidManager.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Bullet.cpp
+../headers/Bullet.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Bullet.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/BulletManager.cpp
+../headers/BulletManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/BulletManager.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp
+../headers/CollisionsManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/CollisionsManager.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/HasPhysics.cpp
 ../headers/HasPhysics.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/HasPhysics.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
 iostream
 -
 
-/home/asphox/Documents/c++/AI-Steroid/src/sources/IAGridVisual.cpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp
 ../headers/IAGridVisual.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/IAGridVisual.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/IAGridVisual.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp
 ../headers/TextureManager.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
 
-/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Trajectory.cpp
+../headers/Trajectory.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp
+../headers/Vessel.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Vessel.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp
 SFML/Graphics.hpp
 -
 SFML/System.hpp
@@ -92,13 +180,19 @@ array
 iostream
 -
 ../headers/Defines.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Defines.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
 ../headers/AsteroidManager.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/AsteroidManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/AsteroidManager.hpp
 ../headers/Asteroid.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/Asteroid.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Asteroid.hpp
 ../headers/TextureManager.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/TextureManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
 ../headers/IAGridVisual.hpp
-/home/asphox/Documents/c++/AI-Steroid/src/headers/IAGridVisual.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/IAGridVisual.hpp
+../headers/Vessel.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Vessel.hpp
+../headers/BulletManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/BulletManager.hpp
+../headers/CollisionsManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/CollisionsManager.hpp
 

@@ -1,6 +1,7 @@
-/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/install/local.dir
-/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/AI-Steroid.exe.dir
-/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/edit_cache.dir
-/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/rebuild_cache.dir
-/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/install.dir
-/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/list_install_components.dir
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/install/strip.dir
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/install/local.dir
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/edit_cache.dir
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/rebuild_cache.dir
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/install.dir
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/list_install_components.dir

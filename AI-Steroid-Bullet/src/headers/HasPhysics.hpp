@@ -28,6 +28,8 @@ class HasPhysics
     float maxLifeTime = 0;
     bool  bWantKill = false;
 
+    Trajectory trajectory;
+
     public:
     HasPhysics( uint8_t id , const sf::Vector2f& pos , const sf::Vector2f& vel , const sf::Vector2f& acc,
                 float rot , float vel_rot , float acc_rot );
@@ -49,6 +51,8 @@ class HasPhysics
     virtual void updatePhysics( float timeElapsed );
     inline void setMaxLifeTime(float maxLifeTime){ this->maxLifeTime = maxLifeTime; }
     inline bool wantKill(){ return bWantKill; }
+
+    inline void setTrajectory( const Trajectory& traj ){ trajectory = traj; }
 };
 
 #endif //HAS_PHYSICS_HPP

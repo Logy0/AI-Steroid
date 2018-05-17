@@ -5,6 +5,7 @@
 #include <SFML/Graphics.hpp>
 #include "Defines.hpp"
 #include "HasPhysics.hpp"
+#include "Trajectory.hpp"
 
 class AsteroidManager;
 
