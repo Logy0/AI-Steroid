@@ -15,7 +15,7 @@ file( GLOB SOURCES ../sources/* )
 
 # Define sources and executable
 set(EXECUTABLE_NAME "AI-Steroid.exe")
-add_executable(${EXECUTABLE_NAME} ${SOURCES} ../sources/Trajectory.cpp)
+add_executable(${EXECUTABLE_NAME} ${SOURCES})
 
 
 # Detect and add SFML

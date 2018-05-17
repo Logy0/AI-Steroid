@@ -8,7 +8,7 @@ BulletManager::BulletManager(TextureManager& textureManager)
 
 void BulletManager::generate(const sf::Vector2f& pos)
 {
-    Bullet* tmp = new Bullet(textureManager.get("bullet"),pos,{0,-1000});
+    Bullet* tmp = new Bullet(textureManager.get("bullet"),pos,{ 1000,0});
     tmp->setMaxLifeTime(0.5);
     list.insert( tmp );
 }

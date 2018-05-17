@@ -29,7 +29,7 @@ constexpr double    tau                     = 2*pi;
 
 constexpr uint8_t   NB_OF_VERTEX_ASTEROIDS  = 20;
 
-constexpr float     MEAN_RADIUS_ASTEROIDS = 10.0;
+constexpr float     MEAN_RADIUS_ASTEROIDS = 20.0;
 constexpr float     MIN_MEAN_RADIUS_VARIATION_ASTEROIDS = 0.75; //MEAN_RADIUS_ASTEROIDS - this%MEAN_RADIUS_ASTEROIDS
 constexpr float     MAX_MEAN_RADIUS_VARIATION_ASTEROIDS = 0.75; //MEAN_RADIUS_ASTEROIDS + this%MEAN_RADIUS_ASTEROIDS
 

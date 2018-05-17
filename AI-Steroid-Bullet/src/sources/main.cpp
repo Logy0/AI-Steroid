@@ -13,7 +13,7 @@
 
 
 
-int main()
+int sfmain()
 {
     sf::RenderWindow window(sf::VideoMode(WINDOW_X,WINDOW_Y),"Test genetaration");
     window.setFramerateLimit(60);
@@ -36,9 +36,7 @@ int main()
 
     bool display_grid = false;
 
-	Asteroid* ast = asteroidManager.generate({ 70,60 }, {10,0});
-	Cos_Trajectory traj(0,0,0,100,2,0);
-	ast->setTrajectory(traj);
+	asteroidManager.generate({ 70,60 }, {10,0});
     while(window.isOpen())
     {
         sf::Event event;
@@ -56,8 +54,6 @@ int main()
                     tdir&=~THRUST_DIRECTION::LEFT;
                 if(event.key.code == sf::Keyboard::D)
                     tdir&=~THRUST_DIRECTION::RIGHT;
-                if(event.key.code == sf::Keyboard::Space)
-                    vessel.releaseFire();
             }
             if(event.type == sf::Event::KeyPressed)
             {

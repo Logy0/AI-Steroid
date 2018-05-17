@@ -1,12 +1,12 @@
 #include "../headers/Vessel.hpp"
 
 Vessel::Vessel( TextureManager& textureManager, BulletManager& bulletManager , const sf::Vector2f& pos )
-    :HasPhysics(2,pos,{0,0},{0,0},0,0,0)
+    :HasPhysics(2,pos,{0,0},{0,0},90,0,0)
     ,bulletManager(bulletManager)
     ,textureManager(textureManager)
 {
-    shape.setSize(sf::Vector2f(22,36));
-    shape.setOrigin(sf::Vector2f(11,18));
+    shape.setSize(sf::Vector2f(24,30));
+    shape.setOrigin(sf::Vector2f(12,15));
     shape.setPosition(pos);
     setMaxVelocity(400);
     setFriction(FRICTION_VESSEL);
@@ -61,17 +61,7 @@ void Vessel::reset(sf::Vector2f respos)
 {
 	m_pos = respos;
 }
-
-void Vessel::releaseFire()
-{
-    fireLocked = false;
-}
-
 void Vessel::fire()
 {
-    if(!fireLocked)
-    {
-        bulletManager.generate(m_pos);
-        fireLocked = true;
-    }
+    bulletManager.generate(m_pos);
 }

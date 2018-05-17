@@ -11,7 +11,7 @@ AsteroidManager::~AsteroidManager()
    clear();
 }
 
-Asteroid* AsteroidManager::generate(const sf::Vector2f& pos, const sf::Vector2f& vel)
+Asteroid* AsteroidManager::generate(const sf::Vector2f& pos, const sf::Vector2f& vel,float meanradius)
 {
     float base_radius = MEAN_RADIUS_ASTEROIDS*(1+dist_base_radius(rand));
 
@@ -19,7 +19,7 @@ Asteroid* AsteroidManager::generate(const sf::Vector2f& pos, const sf::Vector2f&
         base_radius = MEAN_RADIUS_ASTEROIDS*(1+MAX_MEAN_RADIUS_VARIATION_ASTEROIDS);
     else if( base_radius < MEAN_RADIUS_ASTEROIDS*(1-MIN_MEAN_RADIUS_VARIATION_ASTEROIDS) )
         base_radius = MEAN_RADIUS_ASTEROIDS*(1-MIN_MEAN_RADIUS_VARIATION_ASTEROIDS);
-
+	//meanradius = base_radius;
     dist_variations_radius = std::normal_distribution<float>(base_radius,ROUGHNESS_ASTEROIDS);
     std::array<sf::Vector2f,NB_OF_VERTEX_ASTEROIDS> vertices;
     float angle_increment = tau/NB_OF_VERTEX_ASTEROIDS;

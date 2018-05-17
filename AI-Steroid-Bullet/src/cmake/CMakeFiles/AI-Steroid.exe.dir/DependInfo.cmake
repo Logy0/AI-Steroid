@@ -4,17 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Asteroid.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Asteroid.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/AsteroidManager.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/AsteroidManager.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Bullet.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Bullet.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/BulletManager.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/BulletManager.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/HasPhysics.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/HasPhysics.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Trajectory.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Trajectory.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp.o"
-  "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp" "/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o"
+  "/home/asphox/Documents/c++/AI-Steroid/src/sources/Asteroid.cpp" "/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/Asteroid.cpp.o"
+  "/home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.cpp" "/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/AsteroidManager.cpp.o"
+  "/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp" "/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/HasPhysics.cpp.o"
+  "/home/asphox/Documents/c++/AI-Steroid/src/sources/IAGridVisual.cpp" "/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/IAGridVisual.cpp.o"
+  "/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp" "/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/TextureManager.cpp.o"
+  "/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp" "/home/asphox/Documents/c++/AI-Steroid/src/cmake/CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/c++/AI-Steroid/src/sources/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
