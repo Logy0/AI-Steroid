@@ -24,15 +24,22 @@ void IAGridVisual::updateVisual()
         {
             switch (grid_value[i][j])
             {
-            case 1:
-                grid[i][j].setFillColor(sf::Color(255,0,0,80));
-                break;
-            case 2:
-                grid[i][j].setFillColor(sf::Color(0,255,0,80));
-                break;
-            default:
-                grid[i][j].setFillColor(sf::Color::Transparent);
-                break;
+
+                case 1:
+                    grid[i][j].setFillColor(sf::Color(255,0,0,80));
+                    break;
+                case 2:
+                    grid[i][j].setFillColor(sf::Color(0,255,0,80));
+                    break;
+                case 3:
+                    grid[i][j].setFillColor(sf::Color(0,0,255,80));
+                    break;
+                case 4:
+                    grid[i][j].setFillColor(sf::Color(0,0,255,80));
+                    break;
+                default:
+                    grid[i][j].setFillColor(sf::Color::Transparent);
+                    break;
             }
         }
     }

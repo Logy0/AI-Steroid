@@ -3,7 +3,7 @@
 cmake_minimum_required(VERSION 2.6)
 
 
-set (CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -std=c++11")
+set (CMAKE_CXX_FLAGS "-Wall -Wextra -pedantic -std=c++11 -pthread")
 set (CMAKE_EXE_LINKER_FLAGS "-lsfml-graphics -lsfml-window -lsfml-system")
 
 
@@ -15,10 +15,10 @@ file( GLOB SOURCES ../sources/* )
 
 # Define sources and executable
 set(EXECUTABLE_NAME "AI-Steroid.exe")
-add_executable(${EXECUTABLE_NAME} ${SOURCES} ../sources/Trajectory.cpp)
+add_executable(${EXECUTABLE_NAME} ${SOURCES} ../sources/Trajectory.cpp ../headers/Animation.hpp ../headers/PowerUp.hpp ../sources/PowerUp.cpp)
 
 
-# Detect and add SFML
+# Detect and addTexture SFML
 set(CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 #Find any version 2.X of SFML
 #See the FindSFML.cmake file for additional details and instructions

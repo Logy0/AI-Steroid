@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp.o"
   "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/HasPhysics.cpp.o"
   "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp.o"
+  "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o"
   "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp.o"
   "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Trajectory.cpp.o"
   "CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp.o"

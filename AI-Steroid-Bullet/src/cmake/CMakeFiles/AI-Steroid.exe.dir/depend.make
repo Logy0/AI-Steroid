@@ -29,6 +29,7 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/BulletManager.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/BulletManager.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/BulletManager.cpp
 
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Animation.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Asteroid.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/AsteroidManager.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/CollisionsManager.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Bullet.hpp
@@ -53,6 +54,14 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp
 
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Animation.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/PowerUp.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp
+
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp
 
@@ -60,6 +69,7 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Trajectory.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Trajectory.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Trajectory.cpp
 
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Animation.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Bullet.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/BulletManager.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Defines.hpp
@@ -69,6 +79,7 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Vessel.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Vessel.cpp
 
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Animation.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Asteroid.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/AsteroidManager.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Bullet.hpp
@@ -78,6 +89,7 @@ CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/IAGridVisual.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Math.hpp
+CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/PowerUp.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Trajectory.hpp
 CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/main.cpp.o: /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Vessel.hpp

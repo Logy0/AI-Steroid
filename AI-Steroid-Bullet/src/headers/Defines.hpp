@@ -21,8 +21,8 @@ enum THRUST_DIRECTION
 
 
 
-const std::string         PATH_TEXTURES           = "../../AI-Steroid/AI-Steroid/ressources/textures/";
-const std::string         PATH_SOUNDS           = "../../AI-Steroid/AI-Steroid/ressources/sounds/";
+const std::string         PATH_TEXTURES           = "../../ressources/textures/";
+const std::string         PATH_SOUNDS           = "../../ressources/sounds/";
 
 constexpr double    pi                      = 3.14159265358979;
 constexpr double    tau                     = 2*pi;

@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Animation.hpp
+vector
+-
+thread
+-
+SFML/Graphics.hpp
+-
+
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Asteroid.hpp
 array
 -
@@ -98,8 +106,20 @@ cmath
 SFML/Graphics.hpp
 -
 
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/PowerUp.hpp
+SFML/Graphics.hpp
+-
+HasPhysics.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/HasPhysics.hpp
+Animation.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Animation.hpp
+TextureManager.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
+
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
 SFML/Graphics.hpp
+-
+iostream
 -
 map
 -
@@ -127,6 +147,8 @@ BulletManager.hpp
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/BulletManager.hpp
 TextureManager.hpp
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/TextureManager.hpp
+Animation.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Animation.hpp
 
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Asteroid.cpp
 ../headers/Asteroid.hpp
@@ -157,6 +179,10 @@ iostream
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp
 ../headers/IAGridVisual.hpp
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/IAGridVisual.hpp
+
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp
+../headers/PowerUp.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/PowerUp.hpp
 
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp
 ../headers/TextureManager.hpp
@@ -195,4 +221,6 @@ iostream
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/BulletManager.hpp
 ../headers/CollisionsManager.hpp
 /home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/CollisionsManager.hpp
+../headers/PowerUp.hpp
+/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/PowerUp.hpp
 

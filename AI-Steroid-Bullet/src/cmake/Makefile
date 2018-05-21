@@ -358,6 +358,33 @@ home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp.
 	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp.s
 .PHONY : home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp.s
 
+home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.o: home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o
+
+.PHONY : home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.o
+
+# target to build an object file
+home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o
+.PHONY : home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.o
+
+home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.i: home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.i
+
+.PHONY : home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.i
+
+# target to preprocess a source file
+home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.i:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.i
+.PHONY : home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.i
+
+home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.s: home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.s
+
+.PHONY : home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.s
+
+# target to generate assembly for a file
+home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.s:
+	$(MAKE) -f CMakeFiles/AI-Steroid.exe.dir/build.make CMakeFiles/AI-Steroid.exe.dir/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.s
+.PHONY : home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp.s
+
 home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.o: home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp.o
 
 .PHONY : home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.o
@@ -500,6 +527,9 @@ help:
 	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.o"
 	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.i"
 	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.s"
+	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.o"
+	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.i"
+	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.s"
 	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.o"
 	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.i"
 	@echo "... home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.s"

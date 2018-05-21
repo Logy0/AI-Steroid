@@ -5,11 +5,12 @@ Vessel::Vessel( TextureManager& textureManager, BulletManager& bulletManager , c
     ,bulletManager(bulletManager)
     ,textureManager(textureManager)
 {
-    shape.setSize(sf::Vector2f(22,36));
-    shape.setOrigin(sf::Vector2f(11,18));
+    shape.setSize(sf::Vector2f(36,22));
+    shape.setOrigin(sf::Vector2f(18,11));
     shape.setPosition(pos);
     setMaxVelocity(400);
     setFriction(FRICTION_VESSEL);
+    animation = new Animation(textureManager.get("vessel"),shape,true);
 }
 
 void Vessel::draw(sf::RenderTarget& target, sf::RenderStates states) const
@@ -74,4 +75,9 @@ void Vessel::fire()
         bulletManager.generate(m_pos);
         fireLocked = true;
     }
+}
+
+Vessel::~Vessel()
+{
+    delete animation;
 }

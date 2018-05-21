@@ -10,6 +10,7 @@
 #include "../headers/Vessel.hpp"
 #include "../headers/BulletManager.hpp"
 #include "../headers/CollisionsManager.hpp"
+#include "../headers/PowerUp.hpp"
 
 
 
@@ -23,9 +24,12 @@ int main()
 
     IAGridVisual grid;
     TextureManager textureMgr;
-    textureMgr.add("asteroid",PATH_TEXTURES+"asteroids.png");
-    textureMgr.add("bullet",PATH_TEXTURES+"bullet.png");
-    textureMgr.add("vessel",PATH_TEXTURES+"vessel.png");
+    textureMgr.add("asteroid", PATH_TEXTURES + "asteroids.png");
+    textureMgr.add("bullet", PATH_TEXTURES + "bullet.png");
+    textureMgr.add("vessel", PATH_TEXTURES + "vessel.png");
+    textureMgr.add("life",PATH_TEXTURES + "life.png");
+    textureMgr.add("speed",PATH_TEXTURES + "speed.png");
+
 
     AsteroidManager asteroidManager(textureMgr);
     BulletManager bulletManager(textureMgr);
@@ -39,6 +43,13 @@ int main()
 	Asteroid* ast = asteroidManager.generate({ 70,60 }, {10,0});
 	Cos_Trajectory traj(0,0,0,100,2,0);
 	ast->setTrajectory(traj);
+
+	Life_PowerUp life(textureMgr,{300,300});
+	life.setVelocity({-10,0});
+
+    Speed_PowerUp speed(textureMgr,{400,400});
+    speed.setVelocity({-15,0});
+
     while(window.isOpen())
     {
         sf::Event event;
@@ -79,16 +90,22 @@ int main()
         bulletManager.update(sec);
         vessel.thrust(static_cast<THRUST_DIRECTION>(tdir));
         vessel.update(sec);
+        life.update(sec);
+        speed.update(sec);
         clock.restart();
         window.clear();
         window.draw(asteroidManager);
         window.draw(vessel);
         window.draw(bulletManager);
+        window.draw(life);
+        window.draw(speed);
         collisionsManager.check();
         if(ENABLE_GRID_TEST_MOD)
         {
             grid.reset();
             grid.update(&vessel);
+            grid.update(&life);
+            grid.update(&speed);
             for( const auto& it : asteroidManager.getAsteroids())
             {
                 grid.update(it);

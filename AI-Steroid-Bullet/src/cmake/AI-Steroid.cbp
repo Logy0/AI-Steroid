@@ -106,6 +106,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/Animation.hpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/headers/PowerUp.hpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
 		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/Asteroid.cpp">
 			<Option target="AI-Steroid.exe"/>
 		</Unit>
@@ -125,6 +131,9 @@
 			<Option target="AI-Steroid.exe"/>
 		</Unit>
 		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/IAGridVisual.cpp">
+			<Option target="AI-Steroid.exe"/>
+		</Unit>
+		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/PowerUp.cpp">
 			<Option target="AI-Steroid.exe"/>
 		</Unit>
 		<Unit filename="/home/asphox/Documents/AI-Steroid/AI-Steroid-Bullet/src/sources/TextureManager.cpp">

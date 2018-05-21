@@ -34,7 +34,7 @@ class HasPhysics
     HasPhysics( uint8_t id , const sf::Vector2f& pos , const sf::Vector2f& vel , const sf::Vector2f& acc,
                 float rot , float vel_rot , float acc_rot );
     //void setPosition( const sf::Vector2f& pos);
-    //void setVelocity( const sf::Vector2f& vel );
+    inline void setVelocity( const sf::Vector2f& vel ){ m_vel = vel;}
     //void setAcceleration( const sf::Vector2f& acc );
 
     inline const sf::Vector2f& getPosition() const { return m_pos; }
