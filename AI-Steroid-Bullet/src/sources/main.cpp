@@ -11,6 +11,7 @@
 #include "../headers/BulletManager.hpp"
 #include "../headers/CollisionsManager.hpp"
 #include "../headers/PowerUp.hpp"
+#include "../headers/Trajectory.hpp"
 
 
 
@@ -40,7 +41,7 @@ int main()
 
     bool display_grid = false;
 
-	Asteroid* ast = asteroidManager.generate({ 70,60 }, {10,0});
+	Asteroid* ast = asteroidManager.generate({ 70,60 }, {10,0}, MEAN_RADIUS_ASTEROIDS);
 	Cos_Trajectory traj(0,0,0,100,2,0);
 	ast->setTrajectory(traj);
 

@@ -51,8 +51,8 @@ class HasPhysics
     virtual void updatePhysics( float timeElapsed );
     inline void setMaxLifeTime(float maxLifeTime){ this->maxLifeTime = maxLifeTime; }
     inline bool wantKill(){ return bWantKill; }
+    inline void setTrajectory(const Trajectory& traj){ trajectory=traj; }
 
-    inline void setTrajectory( const Trajectory& traj ){ trajectory = traj; }
 };
 
 #endif //HAS_PHYSICS_HPP

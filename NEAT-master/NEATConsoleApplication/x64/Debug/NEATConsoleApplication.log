@@ -1,5 +1,28 @@
-﻿  experimentsaisteroid.cpp
-c:\users\antoine0\source\repos\neat-master\neat\species.h(59): warning C4244: 'return' : conversion de 'unsigned __int64' en 'double', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neatconsoleapplication\aisteroidgame.h(37): warning C4305: 'initialisation' : troncation de 'double' à 'float'
-c:\users\antoine0\source\repos\neat-master\neatconsoleapplication\experimentsaisteroid.cpp(141): warning C4101: 'pause' : variable locale non référencée
-  NEATConsoleApplication.vcxproj -> C:\Users\Antoine0\source\repos\NEAT-master\x64\Debug\NEATConsoleApplication.exe
+﻿  Asteroid.cpp
+  Génération de code en cours...
+  Compilation en cours...
+  neatmain.cpp
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.h(59): warning C4244: 'return' : conversion de 'unsigned __int64' en 'double', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neatconsoleapplication\aisteroidgame.h(47): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  experimentsaisteroid.cpp
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.h(59): warning C4244: 'return' : conversion de 'unsigned __int64' en 'double', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neatconsoleapplication\aisteroidgame.h(47): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neatconsoleapplication\experimentsaisteroid.cpp(393): warning C4101: 'pause' : variable locale non référencée
+  aisteroidgame.cpp
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neatconsoleapplication\aisteroidgame.h(47): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neatconsoleapplication\aisteroidgame.cpp(34): warning C4244: '=' : conversion de 'double' en 'float', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neatconsoleapplication\aisteroidgame.cpp(344): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  Vessel.cpp
+  IAGridVisual.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\sources\iagridvisual.cpp(11): warning C4244: 'argument' : conversion de 'int' en 'float', perte possible de données
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\sources\iagridvisual.cpp(55): warning C4244: 'initialisation' : conversion de 'float' en 'int16_t', perte possible de données
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\sources\iagridvisual.cpp(56): warning C4244: 'initialisation' : conversion de 'float' en 'int16_t', perte possible de données
+  HasPhysics.cpp
+  CollisionsManager.cpp
+  BulletManager.cpp
+  Bullet.cpp
+  AsteroidManager.cpp
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\sources\asteroidmanager.cpp(6): warning C4305: 'argument' : troncation de 'double' à 'float'
+c:\users\antoine0\source\repos\ai-steroid-bullet\ai-steroid-bullet\src\sources\asteroidmanager.cpp(25): warning C4305: 'initialisation' : troncation de 'double' à 'float'
+  Génération de code en cours...
+  NEATConsoleApplication.vcxproj -> C:\Users\Antoine0\source\repos\NEAT-AI-Steroid-Bullet\x64\Debug\NEATConsoleApplication.exe

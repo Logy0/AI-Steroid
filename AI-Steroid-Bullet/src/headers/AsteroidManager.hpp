@@ -22,7 +22,7 @@ class AsteroidManager : public sf::Drawable
     public:
         AsteroidManager(const TextureManager&);
         ~AsteroidManager();
-        Asteroid* generate( const sf::Vector2f& position, const sf::Vector2f& pos);
+        Asteroid* generate( const sf::Vector2f& position, const sf::Vector2f& pos, float meanradius);
         virtual void draw(sf::RenderTarget& target, sf::RenderStates states) const;
         void update(float timeElapsed);
         void clear();

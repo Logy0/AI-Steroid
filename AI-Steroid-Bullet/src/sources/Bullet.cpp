@@ -1,7 +1,7 @@
 #include "../headers/Bullet.hpp"
 
 Bullet::Bullet( const sf::Texture& texture, const sf::Vector2f& pos, const sf::Vector2f& vel)
-:HasPhysics(0,pos,vel,{0,0},0,0,0)
+:HasPhysics(0,pos,vel,{0,0},90,0,0)
 {
     shape.setTexture(&texture);
     shape.setSize({7,15});
@@ -10,6 +10,7 @@ Bullet::Bullet( const sf::Texture& texture, const sf::Vector2f& pos, const sf::V
 void Bullet::draw(sf::RenderTarget& target,sf::RenderStates state) const
 {
     shape.setPosition(m_pos);
+	shape.setRotation(m_rot);
     target.draw(shape,state);
 }
 void Bullet::update(float timeElapsed)

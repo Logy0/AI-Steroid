@@ -20,6 +20,7 @@ void HasPhysics::updatePhysics(float timeElapsed)
         if( maxLifeTime != 0 && lifeTime > maxLifeTime )
             bWantKill = true;
 
+
         if( trajectory.isActiveAx() )
             m_acc.x = trajectory.getAx();
         if( trajectory.isActiveAy() )

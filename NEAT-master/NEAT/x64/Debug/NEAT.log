@@ -1,26 +1,49 @@
-﻿  Genome.cpp
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(857): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(888): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1009): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1030): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1033): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1065): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1068): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1304): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1417): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1568): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1601): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1606): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1607): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1670): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1671): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1769): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1881): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1905): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(1961): warning C4101: 'p1innov' : variable locale non référencée
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(2679): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(2687): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(2945): warning C4244: '=' : conversion de 'unsigned __int64' en 'double', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(2946): warning C4244: '=' : conversion de 'unsigned __int64' en 'double', perte possible de données
-c:\users\antoine0\source\repos\neat-master\neat\genome.cpp(3049): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
-  NEAT.vcxproj -> C:\Users\Antoine0\source\repos\NEAT-master\x64\Debug\NEAT.lib
+﻿  Trait.cpp
+  Species.cpp
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.h(59): warning C4244: 'return' : conversion de 'unsigned __int64' en 'double', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(112): warning C4101: 'thechamp' : variable locale non référencée
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(124): warning C4101: 'marble' : variable locale non référencée
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(125): warning C4101: 'spin' : variable locale non référencée
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(603): warning C4477: 'sprintf_s' : la chaîne de format '%d' nécessite un argument de type 'int', mais l'argument variadique 2 est de type 'unsigned __int64'
+  c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(603): note: utilisez '%zd' dans la chaîne de format
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(757): warning C4267: '=' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(718): warning C4101: 'pause' : variable locale non référencée
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(738): warning C4101: 'marble' : variable locale non référencée
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.cpp(739): warning C4101: 'spin' : variable locale non référencée
+  Population.cpp
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.h(59): warning C4244: 'return' : conversion de 'unsigned __int64' en 'double', perte possible de données
+  Organism.cpp
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\species.h(59): warning C4244: 'return' : conversion de 'unsigned __int64' en 'double', perte possible de données
+  NNode.cpp
+  Network.cpp
+  Neat.cpp
+  Link.cpp
+  Innovation.cpp
+  Genome.cpp
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(857): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(888): warning C4244: '=' : conversion de '__int64' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1009): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1030): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1033): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1065): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1068): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1304): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1417): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1568): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1601): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1606): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1607): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1670): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1671): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1769): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1881): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1905): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(1961): warning C4101: 'p1innov' : variable locale non référencée
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(2679): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(2687): warning C4267: 'argument' : conversion de 'size_t' en 'int', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(2945): warning C4244: '=' : conversion de 'unsigned __int64' en 'double', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(2946): warning C4244: '=' : conversion de 'unsigned __int64' en 'double', perte possible de données
+c:\users\antoine0\source\repos\neat-ai-steroid-bullet\neat\genome.cpp(3049): warning C4267: 'initialisation' : conversion de 'size_t' en 'int', perte possible de données
+  Gene.cpp
+  Génération de code en cours...
+  NEAT.vcxproj -> C:\Users\Antoine0\source\repos\NEAT-AI-Steroid-Bullet\x64\Debug\NEAT.lib
